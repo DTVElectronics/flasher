@@ -266,6 +266,7 @@ INIT_MANAGER = "systemd"
 IMAGE_INSTALL:append = " \
     kernel-modules \
     linux-firmware \
+    cm3-pcie-overlay \
     python3-fastapi \
     python3-uvicorn \
     python3-asgiref \

@@ -10,3 +10,6 @@
 [submodule "meta-rockchip"]
 	path = meta-rockchip
 	url = https://github.com/DTVElectronics/meta-rockchip
+[submodule "meta-arm"]
+	path = meta-arm
+	url = git://git.yoctoproject.org/meta-arm

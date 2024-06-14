@@ -1,1 +1,2 @@
-build/
+dtv-build/cm3/*
+!dtv-build/cm3/conf

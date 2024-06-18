@@ -2,6 +2,7 @@ SUMMARY = "The lightning-fast ASGI server"
 HOMEPAGE = "https://www.uvicorn.org/"
 
 LICENSE = "BSD-3-Clause"
+LIC_FILES_CHKSUM = "file://LICENSE.md;md5=206119e27d6b034e7ce70d73063c82a8"
 
 RDEPENDS_${PN} = "\
     python3-click \

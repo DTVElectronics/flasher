@@ -20,4 +20,4 @@ RDEPENDS:${PN} += "\
     python3-anyio \
 "
 
-SRC_URI[sha256sum] = "d46cd8e0fd80240baffbcd9ec1012a712938754afcf81bce56c024c1656aece8"
+SRC_URI[sha256sum] = "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371"

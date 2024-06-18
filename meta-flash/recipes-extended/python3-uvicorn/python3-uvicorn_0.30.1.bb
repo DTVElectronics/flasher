@@ -2,7 +2,7 @@ SUMMARY = "The lightning-fast ASGI server"
 HOMEPAGE = "https://www.uvicorn.org/"
 
 LICENSE = "BSD-3-Clause"
-LIC_FILES_CHKSUM = "file://LICENSE.md;md5=206119e27d6b034e7ce70d73063c82a8"
+LIC_FILES_CHKSUM = "file://LICENSE.md;md5=5c778842f66a649636561c423c0eec2e"
 
 RDEPENDS_${PN} = "\
     python3-click \
@@ -20,4 +20,4 @@ RDEPENDS:${PN} += "\
     python3-anyio \
 "
 
-SRC_URI[sha256sum] = "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371"
+SRC_URI[sha256sum] = "d46cd8e0fd80240baffbcd9ec1012a712938754afcf81bce56c024c1656aece8"

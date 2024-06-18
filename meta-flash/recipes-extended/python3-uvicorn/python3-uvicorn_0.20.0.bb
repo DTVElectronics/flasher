@@ -19,3 +19,5 @@ inherit pypi setuptools3
 RDEPENDS:${PN} += "\
     python3-anyio \
 "
+
+SRC_URI[sha256sum] = "a4e12017b940247f836bc90b72e725d7dfd0c8ed1c51eb365f5ba30d9f5127d8"

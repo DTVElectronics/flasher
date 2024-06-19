@@ -10,7 +10,6 @@ inherit pypi python_flit_core
 RDEPENDS:${PN} += "\
     python3-pydantic \
     python3-starlette \
-    python3-flit-core \
 "
 
 

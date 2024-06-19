@@ -13,4 +13,5 @@ inherit pypi python_flit_core
 
 DEPENDS += "\
     python3-flit-core \
+    python3-hatchling \
 "

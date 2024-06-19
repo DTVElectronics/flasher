@@ -8,7 +8,6 @@ RDEPENDS:${PN} = "\
     python3-click \
     python3-h11 \
     python3-httptools \
-    python3-typing \
     python3-uvloop \
     python3-websockets \
     python3-wsproto \

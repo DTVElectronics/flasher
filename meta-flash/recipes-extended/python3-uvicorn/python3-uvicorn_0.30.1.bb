@@ -14,11 +14,10 @@ RDEPENDS_${PN} = "\
     python3-wsproto \
 "
 
-inherit pypi setuptools3
+inherit pypi python_flit_core
 
 RDEPENDS:${PN} += "\
     python3-anyio \
-    python3-flit-core \
 "
 
-SRC_URI[sha256sum] = "a4e12017b940247f836bc90b72e725d7dfd0c8ed1c51eb365f5ba30d9f5127d8"
+SRC_URI[sha256sum] = "d46cd8e0fd80240baffbcd9ec1012a712938754afcf81bce56c024c1656aece8"

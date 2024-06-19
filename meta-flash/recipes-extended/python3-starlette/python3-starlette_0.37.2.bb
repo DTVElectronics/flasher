@@ -15,3 +15,5 @@ DEPENDS += "\
     python3-flit-core \
 	python3-hatchling-native \
 "
+
+BBCLASSEXTEND = "native nativesdk"

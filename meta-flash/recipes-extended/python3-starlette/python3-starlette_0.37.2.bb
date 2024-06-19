@@ -11,6 +11,6 @@ S = "${WORKDIR}/starlette-${PV}/starlette"
 
 inherit pypi python_flit_core
 
-DEPENDS:${PN} += "\
+DEPENDS += "\
     python3-flit-core \
 "

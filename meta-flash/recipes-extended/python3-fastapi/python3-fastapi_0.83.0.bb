@@ -12,6 +12,6 @@ RDEPENDS:${PN} += "\
     python3-starlette \
 "
 
-DEPENDS:${PN} += "\
+DEPENDS += "\
     python3-flit-core \
 "

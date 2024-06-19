@@ -19,6 +19,6 @@ inherit pypi python_flit_core
 
 SRC_URI[sha256sum] = "d46cd8e0fd80240baffbcd9ec1012a712938754afcf81bce56c024c1656aece8"
 
-DEPENDS:${PN} += "\
+DEPENDS += "\
     python3-flit-core \
 "

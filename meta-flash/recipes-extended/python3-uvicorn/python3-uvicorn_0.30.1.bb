@@ -21,5 +21,5 @@ SRC_URI[sha256sum] = "d46cd8e0fd80240baffbcd9ec1012a712938754afcf81bce56c024c165
 
 DEPENDS += "\
     python3-flit-core \
-    python3-hatchling \
+    python3-hatchling-native \
 "

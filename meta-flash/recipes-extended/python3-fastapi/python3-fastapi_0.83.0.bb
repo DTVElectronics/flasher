@@ -15,3 +15,5 @@ RDEPENDS:${PN} += "\
 DEPENDS += "\
     python3-flit-core \
 "
+
+BBCLASSEXTEND = "native nativesdk"

@@ -17,7 +17,6 @@ do_install() {
     install -d ${D}/etc/nginx/conf.d
     cp -r ${S}/dist/spa/* ${D}/var/www/html/
     install -m 0644 ${WORKDIR}/webapp.conf ${D}/etc/nginx/conf.d/
-    rm -f ${D}/etc/nginx/sites-enabled/default_server
 }
 
 FILES:${PN} += "/var/www/html/* \

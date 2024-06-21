@@ -29,5 +29,3 @@ setup(
 )
 EOF
 }
-
-BBCLASSEXTEND = "native nativesdk"

@@ -6,7 +6,6 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 inherit deploy
 
-
 SRC_URI = "file://radxa-cm3-raspcm4io-pcie2x1.dts"
 
 S = "${WORKDIR}"
@@ -21,7 +20,6 @@ do_install() {
     install -d ${D}/boot/overlays
     install -m 0644 ${S}/radxa-cm3-raspcm4io-pcie2x1.dtbo ${D}/boot/overlays
 }
-
 
 KERNEL_DEVICETREE += "radxa-cm3-raspcm4io-pcie2x1.dtbo"
 

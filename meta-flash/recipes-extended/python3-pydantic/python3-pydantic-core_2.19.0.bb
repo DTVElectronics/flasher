@@ -8,6 +8,8 @@ HOMEPAGE = "https://github.com/pydantic/pydantic-core"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=ab599c188b4a314d2856b3a55030c75c"
 
+SRC_URI[sha256sum] = "9ad77f1aecedef233390eff7fd643fe652e5ac92b793329424c2a1d2e28c08d1"
+
 DEPENDS = "python3-maturin-native python3-typing-extensions"
 
 require ${BPN}-crates.inc

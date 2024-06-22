@@ -9,4 +9,4 @@ cleanup_rootfs() {
 	rm ${IMAGE_ROOTFS}/etc/nginx/sites-enabled/default_server
 }
 
-ROOTFS_POSTPROCESS_COMMAND += "cleanup_rootfs;"
+ROOTFS_POSTPROCESS_COMMAND:append += "cleanup_rootfs;"

@@ -13,6 +13,7 @@ RDEPENDS:${PN} = "\
     python3-websockets \
     python3-wsproto \
     python3-anyio \
+    python3-multiprocessing \
 "
 
 inherit pypi python_hatchling

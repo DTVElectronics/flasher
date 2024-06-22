@@ -9,7 +9,7 @@ inherit systemd
 
 S = "${WORKDIR}"
 
-RDEPENDS:${PN} = "bash"
+RDEPENDS:${PN} = "bash python3-compression"
 
 SYSTEMD_AUTO_ENALBE = "enable"
 SYSTEMD_SERVICE:${PN} = "flash-api.service"
